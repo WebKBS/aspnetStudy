@@ -18,5 +18,12 @@ public class HelloWorldController : Controller
         //return HtmlEncoder.Default.Encode($"Hello {name}, ID: {ID}");
         return HtmlEncoder.Default.Encode($"Hello {name}, Number = {number}");
     }
+
+   public IActionResult Welcome2(string name, int numTimes = 11) {
+        name = "글자글자 한글 글자";
+        ViewData["Message"] = "Hello " + name;
+        ViewData["NumTimes"] = numTimes;
+        return View();
+    }
 }
 
