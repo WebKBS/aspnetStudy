@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WRzOLyKfGuBGOb8eMfTIE4OFkoF1EoHm8ntE0WRQPEk=",
+  "Source": "simple-website",
+  "BasePath": "_content/simple-website",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
